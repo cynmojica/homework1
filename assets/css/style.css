@@ -1,0 +1,30 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+#bioimage {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+h1 {
+  color: black;
+  float: left;
+  font-size: 30px;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  padding-right: 25px;
+}
+h2 {
+  color: black;
+  float: clear;
+  font-size: 30px;
+  clear: both;
+}
