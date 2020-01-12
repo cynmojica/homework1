@@ -1,30 +1,246 @@
-.container {
-  width: 900px;
-  margin: 0 auto;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-#bioimage {
-  width: 200px;
-  float: left;
-  margin-right: 20px;
+.main {
+  max-width: 1000px;
+  margin: auto;
 }
-h1 {
-  color: black;
-  float: left;
-  font-size: 30px;
+
+body{
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav {
-  float: right;
+    display: block;
+    padding: 40px 180px 15px 200px;
 }
-nav ul {
-  list-style-type: none;
+
+nav a{
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
-nav ul li {
-  display: inline;
-  padding-right: 25px;
+
+nav a:hover{
+        color: white;
+    }
+
+span {
+    padding-bottom: 0px;
 }
-h2 {
-  color: black;
-  float: clear;
-  font-size: 30px;
+
+header{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: white;    
+    border-color: #cccccc;
+    border: 1px solid #cccccc;
+
+}
+
+.aboutMe{
+    border-bottom: 1px solid #cccccc;
+    margin: 0 15px 0 15px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 550px;
+    padding-top: 20px;
+  }
+
+  .right{
+      float: right;
+  }
+  
+  li {
+    float: left;
+    color: #777777;
+  }
+  .main_container {
+    background-image: url("../images/pexels-photo-1939485.jpeg");
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+
+  h1{
+    margin: 0 0 15px 15px;
+    color: grey;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
+  p{
+      padding: 15px 15px 0 0;
+  }
+
+  .content_container {
+      background-color: white;
+      width: 960px;
+      margin: 0 400px 0 175px;
+      border: 1px solid #ddd;
+      padding: 50px;
+      height: 300px;
+
+  }
+  .port_container {
+    background-color: white;
+    width: 960px;
+    margin: 0 400px 0 175px;
+    border: 1px solid #ddd;
+    padding: 50px;
+    height: 1080px;
+
+}
+
+  .teal_line{
+      padding: 5px;
+      background-color: #4aaaa5;
+  }
+
+  footer{
+      background-color: #3d3c3c;
+      color: oldlace;
+      text-align: center;
+      padding: 30px 0 10px 0;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  a:hover{
+    background-color: #4aaaa5;
+  }
+s
+  a:active{
+      color: #777777;
+  }
+
+
+  .clearfix {
+    overflow: auto;
+  }
+  .mycontent{
+    padding: 0 300px 0 300px;
+  }
+  
+  img {
+    border: 1px solid #ddd;
+    margin: 15px;
+    float: left;
+  }
+
+  .port-image{
+    width: 40%;
+  }
+
+  .image-size-150{
+    padding: 15px;
+    width: 150px;
+
+
+  }
+  .image-size-300{
+    padding: 15px;
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image-size-300-absolute{
+    padding: 15px;
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+
+  .active{
+    background-color: #4aaaa5;
+    color: white;
+  }
+
+  .left{
+    margin: 30px 5px 30px 15px;
+    float: left;
+  }
+  .box{
+    padding: 30px;
+    border: 1px solid #4aaaa5;
+    width: 385px;
+
+  }
+  .right{   
+    margin: 30px 15px 30px 0;
+    float: right;
+  }
+  .image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+ 
+ h4 { 
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+ }
+ .teal_line_padded{
+  padding: 10px;
+  width: 200;
+  background-color: red;
+ }
+
+
+ row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
   clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }

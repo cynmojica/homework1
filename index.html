@@ -1,37 +1,71 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Cynthia Mojica</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MY BIO</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
   </head>
   <body>
-    <div class="container">
+    <div>
       <header>
-        <h1>Cynthia Mojica</h1>
         <nav>
-          <ul>
-            <li>about</li>
-            <li>portfolio</li>
-            <li>contact</li>
-          </ul>
+          <a
+            href="/html/"
+            style="background-color: #4aaaa5; padding: 14px 16px; color: white; font-size: 1em; font-weight: bold"
+            >Cynthia Mojica</a
+          >
+          <span class="right">
+            <a href="./index.html" class="active">About</a> |
+            <a href="./portfolio.html">Portfolio</a> |
+            <a href="./contact.html">Contact</a>
+          </span>
         </nav>
       </header>
 
-      <h2>About Me</h2>
-      <hr />
-      <img src="assets/images/favcofee.jpg" alt="" id="bioimage" />
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum
-      </p>
+      <section class="main_container">
+        <div class="content_container">
+          <h1>About me</h1>
+
+          <div class="aboutMe"></div>
+          <img
+            src="./assets/images/cynphoto.jpg"
+            class="image-size-150"
+            alt="my profile  photo"
+          />
+
+          <p>
+            Cynthia Mojica is a RACF Administrator at State Controller’s Office.
+            Her role is to provide technical installation, configuration,
+            administration, performance… troubleshooting access and profile
+            issues. Managing and administration of complex RACF infrastructure
+            with multiple databases.
+          </p>
+          <p>
+            Her background in mainframe and troubleshooting gave her the courage
+            that she wants a more challenging job. She considers herself a
+            ‘forever student,’ eager to both builds on her academic interest to
+            front and backend of programming.
+          </p>
+          <p>
+            She also has different side jobs, like Real Estate Agent, RCFE
+            Administrator, and Tax Preparer. Despite her busy schedule, she
+            never forgets to spend time with family, especially to her very
+            talented daughter Cali. On her free time, she loves to spend time
+            with her Family. Travelling with family is what she loves to do when
+            she gets the opportunity.
+          </p>
+        </div>
+      </section>
+      <div class="clearfix"></div>
+
+      <div class="teal_line"></div>
+      <footer>
+        <div class="greenbox"></div>
+        <div>Copyright</div>
+      </footer>
     </div>
   </body>
 </html>
